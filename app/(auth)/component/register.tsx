@@ -122,7 +122,7 @@ export default function SignUpComponent() {
               control={form.control}
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Confirm Password</FormLabel>
+                  <FormLabel>Confirm Passwords</FormLabel>
                   <FormControl>
                     <PasswordInput {...field} />
                   </FormControl>
